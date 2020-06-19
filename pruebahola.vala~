@@ -21,7 +21,7 @@ public class MyApp : Gtk.Application {
         main_window.add (button_hello);
         main_window.show_all ();
         }
-#hola hola como estan?
+
         public static int main (string[] args) {
         var app = new MyApp ();
         return app.run (args);
